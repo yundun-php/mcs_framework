@@ -1,14 +1,14 @@
 {
-	"name": "edoger/framework",
-	"description": "A magical web development framework.",
-	"keywords": ["edoger", "framework"],
+	"name": "yundun/mcs_framework",
+	"description": "A  web development framework.",
+	"keywords": ["yundun", "mcs_framework"],
 	"license": "LGPL-3.0-only",
 	"type": "library",
-	"homepage": "https://github.com/edoger/framework",
+	"homepage": "https://github.com/yundun-php/mcs_framework",
 	"authors": [
 		{
-			"name": "Qingshan Luo",
-			"email": "shanshan.lqs@gmail.com"
+			"name": "yundun(old Qingshan Luo)",
+			"email": "yundun(old shanshan.lqs@gmail.com)"
 		}
 	],
 	"require": {
