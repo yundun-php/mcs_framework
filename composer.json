@@ -1,0 +1,32 @@
+{
+	"name": "edoger/framework",
+	"description": "A magical web development framework.",
+	"keywords": ["edoger", "framework"],
+	"license": "LGPL-3.0-only",
+	"type": "library",
+	"homepage": "https://github.com/edoger/framework",
+	"authors": [
+		{
+			"name": "Qingshan Luo",
+			"email": "shanshan.lqs@gmail.com"
+		}
+	],
+	"require": {
+        "php": "5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edoger\\": "src/Edoger/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EdogerTests\\": "tests/EdogerTests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

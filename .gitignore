@@ -1,0 +1,12 @@
+# For Composer
+vendor/
+composer.lock
+
+
+# For PHPUnit
+phpunit.xml
+coverage.xml
+
+
+# For php-cs-fixer
+.php_cs.cache

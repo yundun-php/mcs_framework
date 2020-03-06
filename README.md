@@ -1,1 +1,2 @@
-# mcs_framework
+# MCS PHP Framework #
+- The framework is a  web development framework.
