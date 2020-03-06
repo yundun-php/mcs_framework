@@ -1,0 +1,32 @@
+{
+	"name": "yundun/mcs_framework",
+	"description": "A  web development framework.",
+	"keywords": ["yundunMcs", "mcs_framework"],
+	"license": "LGPL-3.0-only",
+	"type": "library",
+	"homepage": "https://github.com/yundun-php/mcs_framework",
+	"authors": [
+		{
+			"name": "yundun_mcs",
+			"email": "yundun_mcs@yundun.com"
+		}
+	],
+	"require": {
+        "php": "5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "YundunMcs\\": "src/YundunMcs/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YundunMcsTests\\": "tests/YundunMcsTests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
