@@ -5,13 +5,13 @@
          backupGlobals="false"
          verbose="true">
     <testsuites>
-        <testsuite name="Edoger framework tests uites.">
-            <directory suffix="Test.php">./tests/EdogerTests/*/Cases</directory>
+        <testsuite name="YundunMcs framework tests uites.">
+            <directory suffix="Test.php">./tests/YundunMcsTests/*/Cases</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/Edoger</directory>
+            <directory suffix=".php">./src/YundunMcs</directory>
         </whitelist>
     </filter>
     <logging>

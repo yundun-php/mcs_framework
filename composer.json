@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Edoger\\": "src/Edoger/"
+            "YundunMcs\\": "src/YundunMcs/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EdogerTests\\": "tests/EdogerTests/"
+            "YundunMcsTests\\": "tests/YundunMcsTests/"
         }
     },
     "extra": {

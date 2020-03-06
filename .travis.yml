@@ -18,7 +18,7 @@ before_script:
   - mysql -uroot -e "DROP TABLE IF EXISTS edoger.users;"
   - mysql -uroot -e "CREATE TABLE edoger.users (id int(10) unsigned NOT NULL AUTO_INCREMENT, name varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '', age tinyint(2) unsigned NOT NULL DEFAULT '0', hobbies varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '', PRIMARY KEY (id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;"
   - mysql -uroot -e "TRUNCATE TABLE edoger.users;"
-  - mysql -uroot -e "INSERT INTO edoger.users (name, age, hobbies) VALUES ('Edoger', 5, 'Painting');"
+  - mysql -uroot -e "INSERT INTO edoger.users (name, age, hobbies) VALUES ('YundunMcs', 5, 'Painting');"
   - mysql -uroot -e "CREATE USER 'edoger'@'%' IDENTIFIED BY 'edoger';"
   - mysql -uroot -e "GRANT ALL ON *.* TO 'edoger'@'%';"
   - mysql -uroot -e "FLUSH PRIVILEGES;"
